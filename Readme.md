@@ -65,13 +65,7 @@ This file sets up the IAM roles and policies necessary for the Lambda function t
 
 Use the AWS CLI to send a test message to the SQS queue:
 ```sh
-aws sqs send-message --queue-url "https://sqs.us-west-2.amazonaws.com/975049981009/switchee-sqs-us-west-2" --message-body '{
-  "property_id": 1234567890,
-  "lat": 51.5047324,
-  "lon": -0.0978885,
-  "start_date": "2023-12-01",
-  "end_date": "2023-12-31"
-}'
+aws sqs send-message --queue-url "https://sqs.us-west-2.amazonaws.com/975049981009/switchee-sqs-us-west-2" --message-body "{\"property_id\":1234567891,\"lat\":51.5047324,\"lon\":-0.0978885,\"start_date\":\"2023-12-01\",\"end_date\":\"2023-12-31\"}"
 ```
 
 ### Verify the Results
