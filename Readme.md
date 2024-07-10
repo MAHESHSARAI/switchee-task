@@ -86,16 +86,16 @@ aws sqs send-message --queue-url "https://sqs.us-west-2.amazonaws.com/9750499810
 ### Screenshots
 
 #### Lambda Function Deployment
-![Lambda Function](lambda.png)
+![Lambda Function](Results/lambda.png)
 
 #### SQS Queue
-![SQS Queue](sqs.png)
+![SQS Queue](Results/sqs.png)
 
 #### DynamoDB Table
-![DynamoDB Table](DynamoDB.png)
+![DynamoDB Table](Results/DynamoDB.png)
 
 #### Test Verification
-![Test Verification](test_verification.png)
+![Test Verification](Results/test_verification.png)
 
 ## Conclusion
 
