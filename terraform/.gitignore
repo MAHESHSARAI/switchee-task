@@ -1,0 +1,10 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Lambda package
+lambda/lambda_function.zip
+lambda/lambda_package/
+.cache/
